@@ -1,0 +1,7 @@
+# Generated runtime data
+/runtime/
+
+# Local configuration and secrets
+/config/*.conf
+.env
+*.key
