@@ -1,0 +1,23 @@
+====================================
+       LINUX SERVER HEALTH
+====================================
+Timestamp: 2026-10-25 14:05:13
+
+--- DISK ---
+Disk Usage: 91%
+Status: CRITICAL
+
+--- RAM ---
+RAM Usage: 6%
+Status: HEALTHY
+
+--- CPU ---
+CPU Usage: 0%
+Status: HEALTHY
+
+--- UPTIME ---
+Uptime: up 2 hours, 51 minutes
+
+====================================
+Health check completed
+====================================

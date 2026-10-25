@@ -1,0 +1,13 @@
+================================
+    SERVICE & PORT MONITOR
+================================
+--- SERVICE CHECK ---
+Service: cron.service
+Status: RUNNING
+
+--- TCP PORT CHECK ---
+Host: 127.0.0.1
+Port: 22
+Status: UNREACHABLE
+
+Overall Status: ATTENTION REQUIRED
