@@ -93,7 +93,7 @@ Development and initial testing were performed using Ubuntu under WSL2.
 Clone the repository:
 
 ```bash
-git clone <YOUR_REPOSITORY_URL>
+git clone https://github.com/hanzlaofficial136-afk/linux-server-health-backup-toolkit.git
 cd linux-server-health-backup-toolkit
 ```
 
