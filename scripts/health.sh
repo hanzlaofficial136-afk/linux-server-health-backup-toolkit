@@ -1,4 +1,3 @@
-
 #!/usr/bin/env bash
 
 # Linux Server Health & Backup Toolkit
@@ -63,7 +62,6 @@ check_ram() {
 
 # Calculate CPU usage from two snapshots
 check_cpu() {
-    local user nice system idle iowait irq softirq steal rest
     local idle1 total1 idle2 total2
     local delta_total delta_idle usage
     local values1 values2

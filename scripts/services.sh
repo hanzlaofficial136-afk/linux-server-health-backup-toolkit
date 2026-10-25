@@ -1,4 +1,3 @@
-
 #!/usr/bin/env bash
 
 # Linux Server Health & Backup Toolkit
@@ -26,6 +25,8 @@ check_service() {
 check_port() {
     echo "--- TCP PORT CHECK ---"
 
+    # Variables $1 and $2 are intentionally expanded by the inner Bash.
+    # shellcheck disable=SC2016
     if timeout 3 bash -c 'echo > /dev/tcp/"$1"/"$2"' _ "$HOST" "$PORT" 2>/dev/null; then
         echo "Host: $HOST"
         echo "Port: $PORT"

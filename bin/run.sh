@@ -1,4 +1,3 @@
-
 #!/usr/bin/env bash
 
 # Linux Server Health & Backup Toolkit
